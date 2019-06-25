@@ -247,6 +247,7 @@ class KittiDataset:
         Return:
             samples: a list of data sample dicts
         """
+
         sample_dicts = []
         for sample_idx in indices:
             sample = self.sample_list[sample_idx]

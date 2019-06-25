@@ -84,7 +84,7 @@ class AvodModel(model.DetectionModel):
 
         # Sets model configs (_config)
         super(AvodModel, self).__init__(model_config)
-        #pdb.set_trace()
+#         pdb.set_trace()
 
         self.dataset = dataset
 

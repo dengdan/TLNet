@@ -18,7 +18,7 @@ from abc import abstractmethod
 
 class DetectionModel(object):
     """Abstract base class for detection models."""
-    __metaclass__ = ABCMeta
+    __metaclass__ = ABCMeta # for python 2.7
 
     def __init__(self, model_config):
         """Constructor.

@@ -128,7 +128,7 @@ def train(model, train_config):
 
     # Create init op
     init = tf.global_variables_initializer()
-
+    step_base = 0
     # Continue from last saved checkpoint
     if not train_config.overwrite_checkpoints:
         trainer_utils.load_checkpoints(checkpoint_dir,
